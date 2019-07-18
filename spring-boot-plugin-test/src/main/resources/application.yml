@@ -1,0 +1,7 @@
+server:
+  port: 1667
+
+springboot:
+  plugin:
+    prefix: "你好吗"
+    suffix: "请崛起"
