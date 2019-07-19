@@ -1,6 +1,6 @@
 package com.chth.springboot.plugin.service;
 
-import com.chth.springboot.plugin.config.PluginConfig;
+import com.chth.springboot.plugin.auto.PluginAutoConfig;
 import lombok.*;
 import lombok.extern.slf4j.Slf4j;
 
@@ -18,7 +18,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class PluginService {
 
-    PluginConfig pluginConfig;
+    private PluginAutoConfig.PluginConfig pluginConfig;
 
     /**
      * 插件方法
@@ -36,5 +36,6 @@ public class PluginService {
 
         return prefix + "-" + name + "-" + suffix;
     }
+
 
 }
