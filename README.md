@@ -5,4 +5,4 @@
 ## 配置自动装配的类：
 **详见插件模块的spring.factories**
 ## 配置可在springboot配置文件applicaton.yml中可配置的属性：
-**详见插件模块的PluginAutoConfig**
+**详见插件模块的PluginAutoConfig.class**
