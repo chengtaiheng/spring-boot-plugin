@@ -14,7 +14,7 @@
     </modules>
 
     <properties>
-        <springboot.version>2.1.6.RELEASE</springboot.version>
+        <springboot.version>2.5.12</springboot.version>
     </properties>
 
     <dependencyManagement>
